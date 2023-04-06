@@ -1,11 +1,18 @@
 Package: Willmottproject1
 Type: Package
-Title: What the Package Does (Title Case)
+Title: MATH 4793 Project 1
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Heather Willmott
+Maintainer: Heather Willmott <heather.r.willmott-1@ou.edu>
+Description: Contains functions, data, and vignettes relating to Project 1.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: ggplot2, tidyr
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
